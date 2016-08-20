@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Common"
+      name = "Common">
+      <Group
+         location = "group:GMP"
+         name = "GMP">
+         <FileRef
+            location = "group:module.map">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:GMPLib"
+         name = "GMPLib">
+         <FileRef
+            location = "group:gmp.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:SwiftGMP.swift">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:macOS"
+      name = "macOS">
+      <FileRef
+         location = "group:SwiftGMP.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:iOS"
+      name = "iOS">
+      <FileRef
+         location = "group:SwiftGMP.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
